@@ -25,7 +25,7 @@ The sort module needs to be downloaded from [this repository](https://github.com
 git clone https://github.com/abewley/sort
 ```
 
-## Project Setup
+## Project Setup (Download anaconda and pycharm, [here](https://www.youtube.com/watch?v=iDWsZAO2vVw))
 
 * Make an environment with python=3.10 using the following command 
 ``` bash
