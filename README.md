@@ -16,7 +16,6 @@ A Yolov8 pre-trained model (YOLOv8n) was used to detect vehicles.
 
 A licensed plate detector was used to detect license plates. The model was trained with Yolov8 using [this dataset](https://universe.roboflow.com/roboflow-universe-projects/license-plate-recognition-rxg4e/dataset/4). 
 - The model is available [here](https://drive.google.com/file/d/1Zmf5ynaTFhmln2z7Qvv-tgjkWQYQ9Zdw/view?usp=sharing).
-
 ## Dependencies
 
 The sort module needs to be downloaded from [this repository](https://github.com/abewley/sort).
@@ -29,13 +28,18 @@ git clone https://github.com/abewley/sort
 
 * Make an environment with python=3.10 using the following command 
 ``` bash
-conda create --prefix ./env python==3.10 -y
+conda create --name <type anything you want> python==3.10
+For example: conda create --name toffu python==3.10
 ```
 * Activate the environment
 ``` bash
-source activate ./env
+activate <env name that you typed above>
+For example: activate toffu
 ``` 
-
+* User created environment
+``` bash
+Choose add new interpreter -> add local interpreter -> Conda Environment -> Dropdown "Use existing environment" and choose the set up environment -> Apply and Ok
+``` 
 * Install the project dependencies using the following command 
 ```bash
 pip install -r requirements.txt
