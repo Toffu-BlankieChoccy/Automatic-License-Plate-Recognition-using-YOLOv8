@@ -37,9 +37,9 @@ activate <env name that you typed above>
 For example: activate toffu
 ``` 
 * User created environment
-``` bash
+
 Choose add new interpreter -> add local interpreter -> Conda Environment -> Dropdown "Use existing environment" and choose the set up environment -> Apply and Ok
-``` 
+
 * Install the project dependencies using the following command 
 ```bash
 pip install -r requirements.txt
